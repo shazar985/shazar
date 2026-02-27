@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application components</title>
+    <link rel="stylesheet"href="andro.css">
+</head>
+<body>
+    <h1>MAIN ANDROID APPLICATION COMPONENTS</h1>
+    <div class="components_box activities">
+        <div class="title">1.activities</div>
+        <div class="desc">represents a single screen with a user interface</div>
+    </div>
+    <div class="components_box activities">
+        <div class="title">2.services</div>
+        <div class="desc">perform background tasks without user interface</div>
+    </div>
+    <div class="components_box activities">
+        <div class="title">3.broadcast</div>
+        <div class="desc">respond to system-wide events or app-wide broadcasts</div>
+        <button id="showmessage">click me</button>
+        <div id="output"></div>
+        <script>
+     document.getElementById("showmessage").addEventListener("click",function(){
+    document.getElementById("output").innerText="android components loaded successfully!";
+    });
+        </script>
+    </div>
+</body>
+</html>

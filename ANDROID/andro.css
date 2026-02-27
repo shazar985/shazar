@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    margin: 0;
+    display: block;
+    padding: 100px;
+}
+h1{
+    color: black;
+    text-align: center;
+    text-decoration:bold;
+}
+.desc{
+    font-size: 18px;
+    margin-top: 5px;
+}
+title{
+    font-size: 24px;
+    font-weight: bold;
+}
+component_box{
+
+    color:black;
+    padding: 20px;
+    margin:0%;
+    border-radius: 15px;
+    box-shadow:0px 3px 10px  ;
+    transform: scale(1.03);
+    max-width: 700px;
+}
+.activities{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    display: block;
+}
+.services{
+    background-color: green;
+    color: black;
+    text-align: center;
+    display: block;
+}
+.broadcast{
+    background-color:pink;
+    color: black;
+    text-align: center;
+    display: block;
+}
+#output{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+showmessage{
+    color: antiquewhite;
+    cursor: pointer;
+    border: none;
+    background: #007bff;
+    display: block;
+    margin: 25px auto;
+    font-size: 18px;
+    border-radius: 10px;
+}
