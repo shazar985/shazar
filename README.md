@@ -1,0 +1,2 @@
+# shazar
+simple js experiments
